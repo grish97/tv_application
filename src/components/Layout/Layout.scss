@@ -1,0 +1,22 @@
+@import "src/asstes/global.scss";
+
+.app {
+  .menu-section {
+    position: fixed;
+    left: 0;
+    z-index: 10;
+  }
+
+  .content-section {
+    width: calc(100% - #{$menu_default_width});
+    height: 100vh;
+    margin-left: $menu_default_width;
+
+    &.back-content {
+      position: relative;
+      background: transparent
+        linear-gradient(90deg, #040404 0%, #040404fa 21%, #04040400 100%) 0% 0%
+        no-repeat padding-box;
+    }
+  }
+}

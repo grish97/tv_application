@@ -1,0 +1,19 @@
+@import "src/asstes/global.scss";
+
+.home-content {
+  height: inherit;
+  background-color: $theme_rich_black;
+
+  @media screen and (min-width: 1850px) {
+    overflow: hidden;
+  }
+
+  .loading-time {
+    width: inherit;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $theme_rich_black;
+  }
+}

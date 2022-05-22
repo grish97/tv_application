@@ -1,0 +1,17 @@
+$menu_default_width: 157px;
+
+$theme_rich_black: #040404;
+$theme_anti_flash_white: #f1f1f1;
+$theme_ultramarine_blue: #3b6bf0e5;
+$theme_smoky_black: #0c0c0c;
+$theme_bluebonnet: #2727f5;
+$theme_dark_imperial_blue: #001671;
+
+$images_path: "/asstes/images";
+
+$trending_height: 296px;
+$top_content_height: calc(100vh - #{$trending_height});
+
+@function assets_url($path) {
+  @return url("#{$images_path}/#{$path}");
+}

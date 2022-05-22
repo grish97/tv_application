@@ -1,0 +1,27 @@
+@import "src/asstes/global.scss";
+
+.background {
+  position: relative;
+  background-size: 100% 100%;
+  background-color: $theme_rich_black;
+
+  &.default-image {
+    background-color: $theme_rich_black;
+  }
+
+  .cover-image,
+  #movie-trailer {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 100% !important;
+    height: auto !important;
+    z-index: 0;
+  }
+
+  .title {
+    color: $theme_anti_flash_white;
+    font-size: 32px;
+  }
+}
