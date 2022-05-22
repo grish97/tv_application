@@ -3,7 +3,10 @@
 
 @import "~@splidejs/splide/css/core";
 
+@import "src/assets/global.scss";
+
 body {
+  background-color: $theme_rich_black;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Tajawal", "Poppins",
     sans-serif;
