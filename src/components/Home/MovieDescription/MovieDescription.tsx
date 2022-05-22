@@ -2,7 +2,7 @@ import { IMovieResponse } from "@movie";
 import { IStoreMovie } from "@store";
 import { useSelector } from "react-redux";
 import { RootState } from "store/store";
-import FeaturedTitleImage from "asstes/images/FeaturedTitleImage.png";
+import FeaturedTitleImage from "assets/images/FeaturedTitleImage.png";
 import "./MovieDescription.scss";
 
 interface IPropType {

@@ -32,7 +32,7 @@ function Menu(props: IPropType) {
       <div className="top-area">
         <div className={classnames("profile", { invisible: !isOpen })}>
           <div className="picture">
-            <img src={require("asstes/images/avatar.jpg")} alt="" />
+            <img src={require("assets/images/avatar.jpg")} alt="" />
           </div>
           <div className="name">Leonardo</div>
         </div>

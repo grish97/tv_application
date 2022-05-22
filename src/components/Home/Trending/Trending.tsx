@@ -37,7 +37,7 @@ function Trending(props: IPropType) {
               onClick={() => updateSelected(movie.id)}
             >
               <img
-                src={require(`asstes/images/${movie.coverImage}`)}
+                src={require(`assets/images/${movie.coverImage}`)}
                 alt={movie.title}
               />
             </div>

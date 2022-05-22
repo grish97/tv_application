@@ -38,7 +38,7 @@ function Background(props: IPropType) {
       selectedMovie?.coverImage && (
         <img
           className="cover-image"
-          src={require(`asstes/images/${selectedMovie.coverImage}`)}
+          src={require(`assets/images/${selectedMovie.coverImage}`)}
           alt=""
         />
       )

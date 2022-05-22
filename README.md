@@ -1,6 +1,6 @@
 # TV Web appication
 
-## Single page TV web application where you can watch movies info and trailers
+## Single page TV web application where you can watch movies, info and trailers
 
 ## Used Technologies
 

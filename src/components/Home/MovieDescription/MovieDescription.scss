@@ -1,4 +1,4 @@
-@import "src/asstes/global.scss";
+@import "src/assets/global.scss";
 
 .movie-description {
   position: relative;
@@ -72,7 +72,7 @@
       .icon {
         width: 16px;
         height: 19px;
-        background: url("/asstes/images/play-black.svg") 0% 0% no-repeat
+        background: url("/assets/images/play-black.svg") 0% 0% no-repeat
           padding-box;
         margin-right: 12px;
       }
